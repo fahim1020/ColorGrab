@@ -1,0 +1,45 @@
+.dark {
+  background-color: #111111;
+  color: #ffffff;
+}
+.dark .navbar {
+  background-color: #111111;
+}
+.baskervville-sc-regular {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 16px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.15s ease-in-out;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+input[type="range"]:hover {
+  opacity: 1;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  width: 20px; /* Set width of the thumb */
+  height: 20px; /* Set height of the thumb */
+  background-color: #fff; /* Set the color of the thumb */
+  border-radius: 50%; /* Optional: round the thumb */
+  cursor: pointer; /* Cursor style */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: add shadow */
+}
